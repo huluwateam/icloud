@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<system>
+	<authHost>byapp.net</authHost>
+	<authPort>60000</authPort>
+	<photoDefaultDir>c:/icloudPhoto</photoDefaultDir>
+</system>

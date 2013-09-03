@@ -1,0 +1,1329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="FirstNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 17</value>
+  </data>
+  <data name="AddrTypeCb_1.Items1" xml:space="preserve">
+    <value>工作</value>
+  </data>
+  <data name="lastNameTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 21</value>
+  </data>
+  <data name="AddrZipTB_2.Text" xml:space="preserve">
+    <value>邮编</value>
+  </data>
+  <data name="noteTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 571</value>
+  </data>
+  <data name="&gt;&gt;EmailTypeCb_1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lastNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AddrTypeCb_1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;PhoneTypeCb_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddrCountryTB_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 274</value>
+  </data>
+  <data name="&gt;&gt;lastNameLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="AddrZipTB_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AddrStreetTB_1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;IMTB_2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="EmailTB_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 21</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;phoneNumTB_2.Name" xml:space="preserve">
+    <value>phoneNumTB_2</value>
+  </data>
+  <data name="&gt;&gt;AddrProvinceTB_1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="EmailTypeCb_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 165</value>
+  </data>
+  <data name="phoneNumTB_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 55</value>
+  </data>
+  <data name="&gt;&gt;phoneNumTB_2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="NoteLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="AddrLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;PhoneLabel.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="PhoneTypeCb_2.Items6" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="&gt;&gt;AddrStreetTB_1.Name" xml:space="preserve">
+    <value>AddrStreetTB_1</value>
+  </data>
+  <data name="&gt;&gt;IMTB_1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="IMLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;FirstNameTB.Name" xml:space="preserve">
+    <value>FirstNameTB</value>
+  </data>
+  <data name="AddrCityTB_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="EmailTypeCb_2.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="AddrCityTB_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="phoneNumTB_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 21</value>
+  </data>
+  <data name="&gt;&gt;NoteLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="IMTypeCb_1.Items" xml:space="preserve">
+    <value>AIM</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 512</value>
+  </data>
+  <data name="PhoneTypeCb_2.Items" xml:space="preserve">
+    <value>手机</value>
+  </data>
+  <data name="AddrCountryTB_2.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;lastNameLabel.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;RefreshContactBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddrLabel.Name" xml:space="preserve">
+    <value>AddrLabel</value>
+  </data>
+  <data name="lastNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="SaveContactBtn.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="FirstNameTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 21</value>
+  </data>
+  <data name="EmailTB_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 165</value>
+  </data>
+  <data name="&gt;&gt;phoneNumTB_1.Name" xml:space="preserve">
+    <value>phoneNumTB_1</value>
+  </data>
+  <data name="EmailTB_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 129</value>
+  </data>
+  <data name="AddrZipTB_1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;AddrZipTB_2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;EmailTB_1.Name" xml:space="preserve">
+    <value>EmailTB_1</value>
+  </data>
+  <data name="&gt;&gt;IMLabel.Name" xml:space="preserve">
+    <value>IMLabel</value>
+  </data>
+  <data name="&gt;&gt;EmailTB_2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>580, 512</value>
+  </data>
+  <data name="&gt;&gt;AddrCityTB_1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="EmailLabel.Text" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="AddrCityTB_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 460</value>
+  </data>
+  <data name="phoneNumTB_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 21</value>
+  </data>
+  <data name="IMTypeCb_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 201</value>
+  </data>
+  <data name="&gt;&gt;EmailTypeCb_2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>联系人</value>
+  </data>
+  <data name="AddrTypeCb_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 423</value>
+  </data>
+  <data name="&gt;&gt;IMTB_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FirstNameTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveContactBtn.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;AddrTypeCb_2.Name" xml:space="preserve">
+    <value>AddrTypeCb_2</value>
+  </data>
+  <data name="&gt;&gt;AddrZipTB_1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="IMTB_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 21</value>
+  </data>
+  <data name="delContactBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="EmailTypeCb_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="AddrZipTB_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 21</value>
+  </data>
+  <data name="&gt;&gt;newContactBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="newContactBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 483</value>
+  </data>
+  <data name="FirstNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="FirstNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;SaveContactBtn.Name" xml:space="preserve">
+    <value>SaveContactBtn</value>
+  </data>
+  <data name="EmailTB_2.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;lastNameTB.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;IMTB_2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="SaveContactBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="FirstNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AddrLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="IMTB_2.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lastNameTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EmailTypeCb_1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="AddrCityTB_1.Text" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="AddrProvinceTB_1.Text" xml:space="preserve">
+    <value>省份</value>
+  </data>
+  <data name="&gt;&gt;IMTypeCb_1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="PhoneTypeCb_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="AddrLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="&gt;&gt;AddrCityTB_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="IMLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="PhoneTypeCb_2.Items3" xml:space="preserve">
+    <value>工作传真</value>
+  </data>
+  <data name="PhoneTypeCb_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 93</value>
+  </data>
+  <data name="phoneNumTB_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 93</value>
+  </data>
+  <data name="&gt;&gt;FirstNameTB.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="lastNameTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 14</value>
+  </data>
+  <data name="&gt;&gt;AddrTypeCb_1.Name" xml:space="preserve">
+    <value>AddrTypeCb_1</value>
+  </data>
+  <data name="AddrProvinceTB_2.Text" xml:space="preserve">
+    <value>省份</value>
+  </data>
+  <data name="&gt;&gt;EmailTypeCb_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EmailTypeCb_1.Items1" xml:space="preserve">
+    <value>工作</value>
+  </data>
+  <data name="&gt;&gt;NoteLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailTypeCb_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PhoneLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PhoneLabel.Name" xml:space="preserve">
+    <value>PhoneLabel</value>
+  </data>
+  <data name="PhoneTypeCb_1.Items6" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="delContactBtn.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="RefreshContactBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AddrLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="delContactBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="PhoneTypeCb_2.Items1" xml:space="preserve">
+    <value>家庭</value>
+  </data>
+  <data name="IMTB_1.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="IMLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;EmailTB_2.Name" xml:space="preserve">
+    <value>EmailTB_2</value>
+  </data>
+  <data name="newContactBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;AddrProvinceTB_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delContactBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FirstNameLabel.Text" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="&gt;&gt;delContactBtn.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;AddrCountryTB_2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lastNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="EmailLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PhoneTypeCb_1.Items4" xml:space="preserve">
+    <value>家庭传真</value>
+  </data>
+  <data name="AddrZipTB_2.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;delContactBtn.Name" xml:space="preserve">
+    <value>delContactBtn</value>
+  </data>
+  <data name="PhoneLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RefreshContactBtn.Name" xml:space="preserve">
+    <value>RefreshContactBtn</value>
+  </data>
+  <data name="PhoneLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="EmailLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PhoneTypeCb_2.Items5" xml:space="preserve">
+    <value>传呼</value>
+  </data>
+  <data name="&gt;&gt;lastNameTB.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;AddrTypeCb_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;noteTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddrProvinceTB_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="IMTB_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 201</value>
+  </data>
+  <data name="&gt;&gt;AddrProvinceTB_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PhoneTypeCb_1.Items5" xml:space="preserve">
+    <value>传呼</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddrProvinceTB_2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;SaveContactBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddrCityTB_1.Name" xml:space="preserve">
+    <value>AddrCityTB_1</value>
+  </data>
+  <data name="&gt;&gt;SaveContactBtn.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="AddrProvinceTB_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 12</value>
+  </data>
+  <data name="AddrProvinceTB_1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="EmailTypeCb_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 129</value>
+  </data>
+  <data name="AddrStreetTB_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 348</value>
+  </data>
+  <data name="&gt;&gt;IMLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;IMLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddrStreetTB_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 21</value>
+  </data>
+  <data name="noteTB.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="PhoneTypeCb_1.Items2" xml:space="preserve">
+    <value>工作</value>
+  </data>
+  <data name="&gt;&gt;AddrTypeCb_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lastNameLabel.Text" xml:space="preserve">
+    <value>名</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;IMTypeCb_2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;NoteLabel.Name" xml:space="preserve">
+    <value>NoteLabel</value>
+  </data>
+  <data name="AddrCountryTB_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 423</value>
+  </data>
+  <data name="&gt;&gt;RefreshContactBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AddrStreetTB_2.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;PhoneTypeCb_1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;IMTB_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddrCityTB_2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;phoneNumTB_1.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="AddrTypeCb_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="&gt;&gt;AddrCountryTB_1.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="PhoneTypeCb_1.Items3" xml:space="preserve">
+    <value>工作传真</value>
+  </data>
+  <data name="&gt;&gt;AddrCityTB_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IMTypeCb_1.Name" xml:space="preserve">
+    <value>IMTypeCb_1</value>
+  </data>
+  <data name="IMTypeCb_2.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="AddrStreetTB_2.Text" xml:space="preserve">
+    <value>街道</value>
+  </data>
+  <data name="noteTB.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PhoneLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PhoneLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="PhoneLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 58</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 11</value>
+  </data>
+  <data name="&gt;&gt;AddrCityTB_1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IMLabel.Text" xml:space="preserve">
+    <value>即时通讯</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 11</value>
+  </data>
+  <data name="AddrZipTB_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 386</value>
+  </data>
+  <data name="AddrLabel.Text" xml:space="preserve">
+    <value>通讯录</value>
+  </data>
+  <data name="&gt;&gt;lastNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delContactBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PhoneTypeCb_1.Items1" xml:space="preserve">
+    <value>家庭</value>
+  </data>
+  <data name="RefreshContactBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="AddrCityTB_2.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;phoneNumTB_1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;IMTB_1.Name" xml:space="preserve">
+    <value>IMTB_1</value>
+  </data>
+  <data name="&gt;&gt;IMTypeCb_2.Name" xml:space="preserve">
+    <value>IMTypeCb_2</value>
+  </data>
+  <data name="&gt;&gt;noteTB.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="AddrProvinceTB_2.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;PhoneTypeCb_2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="NoteLabel.Text" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;AddrProvinceTB_1.Name" xml:space="preserve">
+    <value>AddrProvinceTB_1</value>
+  </data>
+  <data name="&gt;&gt;EmailTypeCb_2.Name" xml:space="preserve">
+    <value>EmailTypeCb_2</value>
+  </data>
+  <data name="NoteLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 571</value>
+  </data>
+  <data name="AddrTypeCb_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 274</value>
+  </data>
+  <data name="&gt;&gt;AddrTypeCb_2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ContactlistBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="&gt;&gt;AddrZipTB_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContactlistBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddrTypeCb_2.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;AddrStreetTB_2.Name" xml:space="preserve">
+    <value>AddrStreetTB_2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddrCountryTB_2.Name" xml:space="preserve">
+    <value>AddrCountryTB_2</value>
+  </data>
+  <data name="PhoneTypeCb_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 55</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="EmailTypeCb_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="AddrZipTB_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 535</value>
+  </data>
+  <data name="&gt;&gt;AddrCityTB_2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="delContactBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RefreshContactBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="lastNameTB.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;FirstNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="NoteLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="&gt;&gt;PhoneTypeCb_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="AddrStreetTB_1.Text" xml:space="preserve">
+    <value>街道</value>
+  </data>
+  <data name="&gt;&gt;AddrStreetTB_2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;AddrTypeCb_2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="ContactlistBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 460</value>
+  </data>
+  <data name="AddrTypeCb_1.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="IMTB_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 237</value>
+  </data>
+  <data name="&gt;&gt;IMLabel.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="phoneNumTB_1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="AddrCountryTB_1.Text" xml:space="preserve">
+    <value>国家</value>
+  </data>
+  <data name="&gt;&gt;AddrStreetTB_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ContactlistBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;AddrProvinceTB_2.Name" xml:space="preserve">
+    <value>AddrProvinceTB_2</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>568, 495</value>
+  </data>
+  <data name="newContactBtn.Text" xml:space="preserve">
+    <value>新建联系人</value>
+  </data>
+  <data name="IMTypeCb_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="EmailLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;FirstNameLabel.Name" xml:space="preserve">
+    <value>FirstNameLabel</value>
+  </data>
+  <data name="lastNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 17</value>
+  </data>
+  <data name="AddrCityTB_1.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PhoneTypeCb_1.Items" xml:space="preserve">
+    <value>手机</value>
+  </data>
+  <data name="&gt;&gt;AddrStreetTB_2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;newContactBtn.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="AddrLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 277</value>
+  </data>
+  <data name="&gt;&gt;EmailTypeCb_2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;AddrStreetTB_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PhoneTypeCb_2.Items2" xml:space="preserve">
+    <value>工作</value>
+  </data>
+  <data name="&gt;&gt;AddrCountryTB_1.Name" xml:space="preserve">
+    <value>AddrCountryTB_1</value>
+  </data>
+  <data name="RefreshContactBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 483</value>
+  </data>
+  <data name="&gt;&gt;AddrLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ContactForm</value>
+  </data>
+  <data name="&gt;&gt;IMTypeCb_1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;FirstNameLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>所有联系人</value>
+  </data>
+  <data name="&gt;&gt;EmailTB_1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;NoteLabel.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="AddrTypeCb_2.Items1" xml:space="preserve">
+    <value>工作</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="IMTypeCb_1.Items3" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="IMTypeCb_1.Items2" xml:space="preserve">
+    <value>MSN</value>
+  </data>
+  <data name="IMTypeCb_1.Items1" xml:space="preserve">
+    <value>QQ</value>
+  </data>
+  <data name="&gt;&gt;AddrTypeCb_1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="IMTypeCb_1.Items5" xml:space="preserve">
+    <value>飞信</value>
+  </data>
+  <data name="IMTypeCb_1.Items4" xml:space="preserve">
+    <value>ICQ</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;RefreshContactBtn.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="EmailTypeCb_2.Items2" xml:space="preserve">
+    <value>手机</value>
+  </data>
+  <data name="EmailTypeCb_1.Items3" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Name" xml:space="preserve">
+    <value>EmailLabel</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>具体信息</value>
+  </data>
+  <data name="&gt;&gt;PhoneTypeCb_1.Name" xml:space="preserve">
+    <value>PhoneTypeCb_1</value>
+  </data>
+  <data name="&gt;&gt;EmailTB_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RefreshContactBtn.Text" xml:space="preserve">
+    <value>刷新通讯录</value>
+  </data>
+  <data name="EmailTypeCb_2.Items3" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="&gt;&gt;AddrProvinceTB_1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="AddrCountryTB_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 21</value>
+  </data>
+  <data name="PhoneLabel.Text" xml:space="preserve">
+    <value>电话号码</value>
+  </data>
+  <data name="&gt;&gt;ContactlistBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="EmailTypeCb_1.Items2" xml:space="preserve">
+    <value>手机</value>
+  </data>
+  <data name="IMLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="&gt;&gt;AddrZipTB_2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="delContactBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 483</value>
+  </data>
+  <data name="&gt;&gt;AddrZipTB_1.Name" xml:space="preserve">
+    <value>AddrZipTB_1</value>
+  </data>
+  <data name="IMTypeCb_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="AddrTypeCb_1.Items2" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="&gt;&gt;AddrStreetTB_1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="AddrCountryTB_2.Text" xml:space="preserve">
+    <value>国家</value>
+  </data>
+  <data name="lastNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="&gt;&gt;AddrCityTB_2.Name" xml:space="preserve">
+    <value>AddrCityTB_2</value>
+  </data>
+  <data name="ContactlistBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddrLabel.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;AddrZipTB_1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lastNameTB.Name" xml:space="preserve">
+    <value>lastNameTB</value>
+  </data>
+  <data name="FirstNameTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 14</value>
+  </data>
+  <data name="IMTypeCb_2.Items4" xml:space="preserve">
+    <value>ICQ</value>
+  </data>
+  <data name="IMTypeCb_2.Items5" xml:space="preserve">
+    <value>飞信</value>
+  </data>
+  <data name="&gt;&gt;PhoneTypeCb_2.Name" xml:space="preserve">
+    <value>PhoneTypeCb_2</value>
+  </data>
+  <data name="AddrCountryTB_1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;EmailTypeCb_1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="IMTypeCb_2.Items1" xml:space="preserve">
+    <value>QQ</value>
+  </data>
+  <data name="IMTypeCb_2.Items2" xml:space="preserve">
+    <value>MSN</value>
+  </data>
+  <data name="IMTypeCb_2.Items3" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="&gt;&gt;AddrCountryTB_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;AddrCountryTB_2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;EmailTB_2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="IMLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 204</value>
+  </data>
+  <data name="FirstNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;phoneNumTB_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddrTypeCb_2.Items2" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="&gt;&gt;PhoneTypeCb_1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="newContactBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;AddrZipTB_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddrProvinceTB_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 460</value>
+  </data>
+  <data name="&gt;&gt;EmailTB_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;noteTB.Name" xml:space="preserve">
+    <value>noteTB</value>
+  </data>
+  <data name="SaveContactBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EmailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="AddrCityTB_2.Text" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="&gt;&gt;IMTypeCb_2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="IMTB_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 21</value>
+  </data>
+  <data name="&gt;&gt;FirstNameTB.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="AddrCountryTB_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 21</value>
+  </data>
+  <data name="EmailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 132</value>
+  </data>
+  <data name="&gt;&gt;ContactlistBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="AddrProvinceTB_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 311</value>
+  </data>
+  <data name="newContactBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AddrStreetTB_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 21</value>
+  </data>
+  <data name="EmailTB_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 21</value>
+  </data>
+  <data name="&gt;&gt;lastNameLabel.Name" xml:space="preserve">
+    <value>lastNameLabel</value>
+  </data>
+  <data name="IMTypeCb_1.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="PhoneTypeCb_2.Items4" xml:space="preserve">
+    <value>家庭传真</value>
+  </data>
+  <data name="&gt;&gt;PhoneLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="AddrZipTB_1.Text" xml:space="preserve">
+    <value>邮编</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>868, 535</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 62</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 14</value>
+  </data>
+  <data name="&gt;&gt;AddrLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="IMTypeCb_2.Items" xml:space="preserve">
+    <value>AIM</value>
+  </data>
+  <data name="AddrTypeCb_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="&gt;&gt;IMTB_1.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="AddrTypeCb_1.Items" xml:space="preserve">
+    <value>家庭</value>
+  </data>
+  <data name="&gt;&gt;AddrProvinceTB_2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="IMTypeCb_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 237</value>
+  </data>
+  <data name="&gt;&gt;IMTB_2.Name" xml:space="preserve">
+    <value>IMTB_2</value>
+  </data>
+  <data name="&gt;&gt;AddrCountryTB_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="noteTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 144</value>
+  </data>
+  <data name="&gt;&gt;AddrZipTB_2.Name" xml:space="preserve">
+    <value>AddrZipTB_2</value>
+  </data>
+  <data name="&gt;&gt;AddrCountryTB_1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;noteTB.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="SaveContactBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 721</value>
+  </data>
+  <data name="AddrTypeCb_2.Items" xml:space="preserve">
+    <value>家庭</value>
+  </data>
+  <data name="PhoneTypeCb_2.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;FirstNameLabel.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="AddrCityTB_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 311</value>
+  </data>
+  <data name="EmailTypeCb_2.Items" xml:space="preserve">
+    <value>家庭</value>
+  </data>
+  <data name="&gt;&gt;IMTypeCb_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PhoneTypeCb_2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;phoneNumTB_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FirstNameTB.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;newContactBtn.Name" xml:space="preserve">
+    <value>newContactBtn</value>
+  </data>
+  <data name="AddrStreetTB_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 497</value>
+  </data>
+  <data name="SaveContactBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NoteLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;AddrStreetTB_1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="EmailTypeCb_1.Items" xml:space="preserve">
+    <value>家庭</value>
+  </data>
+  <data name="&gt;&gt;newContactBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailTypeCb_1.Name" xml:space="preserve">
+    <value>EmailTypeCb_1</value>
+  </data>
+  <data name="NoteLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;EmailTB_1.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;phoneNumTB_2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="EmailTypeCb_2.Items1" xml:space="preserve">
+    <value>工作</value>
+  </data>
+  <data name="phoneNumTB_2.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="EmailTB_1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;IMTypeCb_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PhoneTypeCb_1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="PhoneTypeCb_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="&gt;&gt;ContactlistBox.Name" xml:space="preserve">
+    <value>ContactlistBox</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 11</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+</root>
