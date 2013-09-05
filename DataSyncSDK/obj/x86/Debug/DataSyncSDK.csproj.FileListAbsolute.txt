@@ -49,3 +49,4 @@ E:\c#_project\xtzzc_icloud_trunk\DataSyncSDK\DataSyncSDK\obj\x86\Debug\DataSyncS
 E:\c#_project\xtzzc_icloud_trunk\DataSyncSDK\DataSyncSDK\obj\x86\Debug\DataSyncSDK.pdb
 E:\c#_project\xtzzc_icloud_trunk\DataSyncSDK\DataSyncSDK\bin\Debug\html\DataSyncHelp.htm
 E:\c#_project\xtzzc_icloud_trunk\DataSyncSDK\DataSyncSDK\bin\Debug\html\demoHelp.htm
+E:\c#_project\xtzzc_icloud_trunk\DataSyncSDK\DataSyncSDK\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog

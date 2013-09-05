@@ -333,7 +333,7 @@ namespace DataSyncSDK
             try
             {
 	            string path = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
-	            string help = path + "html" + "\\" + "help.htm";
+	            string help = path + "html" + "\\" + "DataSynchelp.htm";
 	            Process pro = Process.Start("iexplore.exe", help);
             }
             catch (System.Exception ex)
